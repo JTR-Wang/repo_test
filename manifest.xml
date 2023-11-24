@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github" fetch="https://github.com/"/>
+    <default revision="main" remote="github" sync-j="4"/>
 
-    <project name="JTR-Wang/Camera-Test-App" path="camera_test_app" remote="github" revision="master"/>
+    <project name="JTR-Wang/Camera-Test-App" path="camera_test_app" revision="main"/>
 
 </manifest>
